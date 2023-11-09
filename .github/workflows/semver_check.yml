@@ -16,6 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: wykies/checkout
+        uses: wykies/checkout@main
       - name: Check semver
-        uses: obi1kenobi/cargo-semver-checks-action
+        uses: obi1kenobi/cargo-semver-checks-action@main
